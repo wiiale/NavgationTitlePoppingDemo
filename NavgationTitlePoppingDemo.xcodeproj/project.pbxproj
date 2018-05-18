@@ -16,6 +16,7 @@
 		22BEB5F620AD862900677946 /* UINavigationController+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEB5F520AD862900677946 /* UINavigationController+Title.swift */; };
 		22BEB5F820AD895B00677946 /* UIColor+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEB5F720AD895B00677946 /* UIColor+Title.swift */; };
 		22BEB5FA20AD8A2000677946 /* UIFont+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEB5F920AD8A2000677946 /* UIFont+Title.swift */; };
+		22F89F7420AF0D52009720C0 /* NavBarTitleChangeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		22BEB5F520AD862900677946 /* UINavigationController+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Title.swift"; sourceTree = "<group>"; };
 		22BEB5F720AD895B00677946 /* UIColor+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Title.swift"; sourceTree = "<group>"; };
 		22BEB5F920AD8A2000677946 /* UIFont+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Title.swift"; sourceTree = "<group>"; };
+		22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTitleChangeable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				2236E9D020A6E9DC00139F44 /* AppDelegate.swift */,
+				22F89F7220AF0D30009720C0 /* Protocols */,
 				22BEB5F420AD85D100677946 /* Extensions */,
 				2296057920A99553003946C8 /* ViewControllers */,
 				2236E9D420A6E9DD00139F44 /* Main.storyboard */,
@@ -90,6 +93,14 @@
 				22BEB5F920AD8A2000677946 /* UIFont+Title.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		22F89F7220AF0D30009720C0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 			files = (
 				2296057D20A995A4003946C8 /* SecondViewController.swift in Sources */,
 				22BEB5F820AD895B00677946 /* UIColor+Title.swift in Sources */,
+				22F89F7420AF0D52009720C0 /* NavBarTitleChangeable.swift in Sources */,
 				22BEB5FA20AD8A2000677946 /* UIFont+Title.swift in Sources */,
 				2236E9D120A6E9DC00139F44 /* AppDelegate.swift in Sources */,
 				22BEB5F620AD862900677946 /* UINavigationController+Title.swift in Sources */,
