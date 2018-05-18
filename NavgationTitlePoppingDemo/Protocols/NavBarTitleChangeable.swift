@@ -4,8 +4,12 @@
 //  Copyright © 2018年 fun. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
-protocol NavBarTitleChangeable {
+protocol NavBarTitleChangeable: class {
+    var preferrdTextAttributes: [NSAttributedStringKey: AnyObject] { get }
+}
+
+extension NavBarTitleChangeable {
     
 }
