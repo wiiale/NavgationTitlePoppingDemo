@@ -6,21 +6,17 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class SecondViewController: UIViewController, NavBarTitleChangeable {
 
+    var preferrdTextAttributes: [NSAttributedStringKey : AnyObject] {
+        let item = FunNavTitleTextAttributesItem(color: .nav_black, font:  .nav_small)
+        return getNavgationBarTitleTextAttributes(with: item)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
         title = "Second"
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        
-        navigationController?.setNavgationBarTitleTextAttributes(
-            color: .nav_black,
-            font:  .nav_small
-        )
     }
 }

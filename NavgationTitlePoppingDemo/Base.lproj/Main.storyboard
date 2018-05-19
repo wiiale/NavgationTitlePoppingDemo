@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="319" y="83"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Fun Navigation View Controller-->
         <scene sceneID="i3m-25-8um">
             <objects>
-                <navigationController id="9bc-4Q-8pE" sceneMemberID="viewController">
+                <navigationController id="9bc-4Q-8pE" customClass="FunNavigationViewController" customModule="NavgationTitlePoppingDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WoE-ht-3l6">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

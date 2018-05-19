@@ -16,6 +16,13 @@ class FunNavigationViewController: UINavigationController {
         navigationBar.titleTextAttributes = attributes
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        if let attributes = topViewControllerNavBarTitleAttributes {
+            setNavBarTitleAttributes(attributes)
+        }
+    }
+    
     override func pushViewController(_ viewController: UIViewController, animated: Bool) {
         super.pushViewController(viewController, animated: animated)
         
