@@ -33,7 +33,6 @@
 		22BEB5F720AD895B00677946 /* UIColor+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Title.swift"; sourceTree = "<group>"; };
 		22BEB5F920AD8A2000677946 /* UIFont+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Title.swift"; sourceTree = "<group>"; };
 		22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTitleChangeable.swift; sourceTree = "<group>"; };
-		22F89F7520AF111B009720C0 /* ChangeableNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChangeableNavigationViewController.swift; path = NavgationTitlePoppingDemo/ViewControllers/ChangeableNavigationViewController.swift; sourceTree = SOURCE_ROOT; };
 		22F89F7520AF111B009720C0 /* FunNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FunNavigationViewController.swift; path = NavgationTitlePoppingDemo/ViewControllers/FunNavigationViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
