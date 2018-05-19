@@ -17,7 +17,7 @@
 		22BEB5F820AD895B00677946 /* UIColor+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEB5F720AD895B00677946 /* UIColor+Title.swift */; };
 		22BEB5FA20AD8A2000677946 /* UIFont+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22BEB5F920AD8A2000677946 /* UIFont+Title.swift */; };
 		22F89F7420AF0D52009720C0 /* NavBarTitleChangeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */; };
-		22F89F7620AF111B009720C0 /* ChangeableNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F89F7520AF111B009720C0 /* ChangeableNavigationViewController.swift */; };
+		22F89F7620AF111B009720C0 /* FunNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F89F7520AF111B009720C0 /* FunNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +34,7 @@
 		22BEB5F920AD8A2000677946 /* UIFont+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Title.swift"; sourceTree = "<group>"; };
 		22F89F7320AF0D52009720C0 /* NavBarTitleChangeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarTitleChangeable.swift; sourceTree = "<group>"; };
 		22F89F7520AF111B009720C0 /* ChangeableNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChangeableNavigationViewController.swift; path = NavgationTitlePoppingDemo/ViewControllers/ChangeableNavigationViewController.swift; sourceTree = SOURCE_ROOT; };
+		22F89F7520AF111B009720C0 /* FunNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FunNavigationViewController.swift; path = NavgationTitlePoppingDemo/ViewControllers/FunNavigationViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +82,7 @@
 		2296057920A99553003946C8 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				22F89F7520AF111B009720C0 /* ChangeableNavigationViewController.swift */,
+				22F89F7520AF111B009720C0 /* FunNavigationViewController.swift */,
 				2296057A20A99574003946C8 /* FirstViewController.swift */,
 				2296057C20A995A4003946C8 /* SecondViewController.swift */,
 			);
@@ -181,7 +182,7 @@
 				22BEB5F820AD895B00677946 /* UIColor+Title.swift in Sources */,
 				22F89F7420AF0D52009720C0 /* NavBarTitleChangeable.swift in Sources */,
 				22BEB5FA20AD8A2000677946 /* UIFont+Title.swift in Sources */,
-				22F89F7620AF111B009720C0 /* ChangeableNavigationViewController.swift in Sources */,
+				22F89F7620AF111B009720C0 /* FunNavigationViewController.swift in Sources */,
 				2236E9D120A6E9DC00139F44 /* AppDelegate.swift in Sources */,
 				22BEB5F620AD862900677946 /* UINavigationController+Title.swift in Sources */,
 				2296057B20A99574003946C8 /* FirstViewController.swift in Sources */,
@@ -329,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NavgationTitlePoppingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -346,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NavgationTitlePoppingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
