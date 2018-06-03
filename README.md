@@ -2,6 +2,8 @@
 
 Setting titleTextAttributes called from viewWillAppear not working when I popping view controller. It appear if tapping on the back button instead of swipe back. NavBarTitleChangeable.swift to solve the issues.
 
+[简书](https://www.jianshu.com/p/169ac01d461f)
+
 ## Before
 ![issues.gif](https://github.com/wiiale/NavgationTitlePoppingDemo/blob/master/gifs/before.gif)
 
