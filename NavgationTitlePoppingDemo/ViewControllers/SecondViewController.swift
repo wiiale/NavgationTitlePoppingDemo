@@ -8,15 +8,11 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        navBarTitleColor = .nav_purple
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
         title = "Second"
+        navBarTitleColor = .nav_purple
     }
 }
