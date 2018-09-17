@@ -7,7 +7,7 @@
 import UIKit
 
 public protocol NavBarTitleChangeable: class {
-    var preferrdTextAttributes: [NSAttributedStringKey: AnyObject] { get }
+    var preferredTextAttributes: [NSAttributedStringKey: AnyObject] { get }
 }
 
 extension NavBarTitleChangeable {

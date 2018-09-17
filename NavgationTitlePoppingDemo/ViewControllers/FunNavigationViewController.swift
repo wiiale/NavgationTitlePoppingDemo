@@ -9,7 +9,7 @@ import UIKit
 class FunNavigationViewController: UINavigationController {
 
     private var topViewControllerNavBarTitleAttributes: [NSAttributedStringKey: AnyObject]? {
-        return (topViewController as? NavBarTitleChangeable)?.preferrdTextAttributes
+        return (topViewController as? NavBarTitleChangeable)?.preferredTextAttributes
     }
     
     private func setNavBarTitleAttributes(_ attributes: [NSAttributedStringKey: AnyObject]) {
