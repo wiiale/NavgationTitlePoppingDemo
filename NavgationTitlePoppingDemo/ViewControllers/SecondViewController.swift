@@ -8,7 +8,7 @@ import UIKit
 
 class SecondViewController: UIViewController, NavBarTitleChangeable {
 
-    var preferrdTextAttributes: [NSAttributedStringKey : AnyObject] {
+    var preferredTextAttributes: [NSAttributedStringKey : AnyObject] {
         let item = FunNavTitleTextAttributesItem(color: .nav_black, font:  .nav_small)
         return getNavgationBarTitleTextAttributes(with: item)
     }
