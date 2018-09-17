@@ -6,11 +6,11 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, NavBarTitleChangeable {
-
-    var preferredTextAttributes: [NSAttributedStringKey : AnyObject] {
-        let item = FunNavTitleTextAttributesItem(color: .nav_black, font:  .nav_small)
-        return getNavgationBarTitleTextAttributes(with: item)
+class SecondViewController: UIViewController {
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        navBarTitleColor = .nav_purple
     }
     
     override func viewDidLoad() {

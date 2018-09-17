@@ -6,22 +6,17 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, NavBarTitleChangeable {
+class FirstViewController: UIViewController {
     
-    var preferredTextAttributes: [NSAttributedStringKey : AnyObject] {
-        let item = FunNavTitleTextAttributesItem(color: .nav_purple, font:  .nav_regular)
-        return getNavgationBarTitleTextAttributes(with: item)
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        navBarTitleColor = .nav_black
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
         title = "First"
-    }
-  
-    @IBAction func didTapPush(_ sender: Any) {
-        let vc = SecondViewController()
-        navigationController?.pushViewController(vc, animated: true)
     }
 }
