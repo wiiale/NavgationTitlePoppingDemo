@@ -6,13 +6,17 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         view.backgroundColor = .white
-        title = "Second"
+        title = "First"
         navBarTitleColor = .navPurple
     }
+}
+
+private extension UIColor {
+    static let navPurple: UIColor = #colorLiteral(red: 0.4862745098, green: 0.3098039216, blue: 0.968627451, alpha: 1)
 }
