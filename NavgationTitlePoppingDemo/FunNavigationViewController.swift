@@ -8,11 +8,11 @@ import UIKit
 
 class FunNavigationViewController: UINavigationController {
 
-    private var topViewControllerNavBarTitleAttributes: [NSAttributedStringKey: AnyObject]? {
+    private var topViewControllerNavBarTitleAttributes: [NSAttributedString.Key: AnyObject]? {
         return (topViewController as? NavBarTitleChangeable)?.preferredTextAttributes
     }
     
-    private func setNavBarTitleAttributes(_ attributes: [NSAttributedStringKey: AnyObject]) {
+    private func setNavBarTitleAttributes(_ attributes: [NSAttributedString.Key: AnyObject]) {
         navigationBar.titleTextAttributes = attributes
     }
     

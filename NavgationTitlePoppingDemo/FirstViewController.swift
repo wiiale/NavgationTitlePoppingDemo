@@ -8,8 +8,8 @@ import UIKit
 
 class FirstViewController: UIViewController, NavBarTitleChangeable {
     
-    var preferredTextAttributes: [NSAttributedStringKey : AnyObject] {
-        let item = FunNavTitleTextAttributesItem(color: .nav_purple, font:  .nav_regular)
+    var preferredTextAttributes: [NSAttributedString.Key : AnyObject] {
+        let item = FunNavTitleTextAttributesItem(color: .navPurple, font: .navRegular)
         return getNavgationBarTitleTextAttributes(with: item)
     }
 
@@ -24,4 +24,12 @@ class FirstViewController: UIViewController, NavBarTitleChangeable {
         let vc = SecondViewController()
         navigationController?.pushViewController(vc, animated: true)
     }
+}
+
+private extension UIColor {
+    static let navPurple: UIColor = #colorLiteral(red: 0.4862745098, green: 0.3098039216, blue: 0.968627451, alpha: 1)
+}
+
+private extension UIFont {
+    static let navRegular: UIFont = .systemFont(ofSize: 18, weight: .medium)
 }
