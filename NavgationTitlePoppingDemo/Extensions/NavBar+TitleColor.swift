@@ -63,7 +63,7 @@ extension UINavigationController {
     
     fileprivate func setNavBarTitleColor() {
         navigationBar.titleTextAttributes = [
-            .foregroundColor: topViewController?.navBarTitleColor ?? .nav_black
+            .foregroundColor: topViewController?.navBarTitleColor ?? .navBlack
         ]
     }
 }
@@ -73,7 +73,7 @@ private var navBarTitleColorKey: Void?
 extension UIViewController {
     open var navBarTitleColor: UIColor? {
         get {
-            return objc_getAssociatedObject(self, &navBarTitleColorKey) as? UIColor ?? .nav_black
+            return objc_getAssociatedObject(self, &navBarTitleColorKey) as? UIColor ?? .navBlack
         }
         set {
             objc_setAssociatedObject(self, &navBarTitleColorKey, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)

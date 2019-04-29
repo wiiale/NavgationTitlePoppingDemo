@@ -13,6 +13,6 @@ class SecondViewController: UIViewController {
 
         view.backgroundColor = .white
         title = "Second"
-        navBarTitleColor = .nav_purple
+        navBarTitleColor = .navPurple
     }
 }

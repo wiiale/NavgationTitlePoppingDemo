@@ -8,11 +8,11 @@ import UIKit
 
 extension UIColor {
     
-    public static var nav_purple: UIColor {
+    public static var navPurple: UIColor {
         return UIColor(red: 124.0 / 255, green: 79.0 / 255, blue: 247.0 / 255, alpha: 1.0)
     }
     
-    public static var nav_black: UIColor {
+    public static var navBlack: UIColor {
         return UIColor(red: 55.0 / 255, green: 55.0 / 255, blue: 55.0 / 255, alpha: 1.0)
     }
 }

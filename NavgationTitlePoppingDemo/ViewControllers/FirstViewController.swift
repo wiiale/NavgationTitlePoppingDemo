@@ -13,6 +13,6 @@ class FirstViewController: UIViewController {
 
         view.backgroundColor = .white
         title = "First"
-        navBarTitleColor = .nav_black
+        navBarTitleColor = .navBlack
     }
 }
