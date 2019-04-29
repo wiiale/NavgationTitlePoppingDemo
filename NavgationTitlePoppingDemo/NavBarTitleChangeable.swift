@@ -12,7 +12,7 @@ public protocol NavBarTitleChangeable: class {
 
 extension NavBarTitleChangeable {
     
-    public func getNavgationBarTitleTextAttributes(with item: FunNavTitleTextAttributesItem) -> [NSAttributedString.Key: AnyObject] {
+    public func getNavgationBarTitleTextAttributes(with item: NavTitleTextAttributesItem) -> [NSAttributedString.Key: AnyObject] {
         
         var textAttributes: [NSAttributedString.Key: AnyObject] = [:]
         
@@ -27,7 +27,7 @@ extension NavBarTitleChangeable {
     }
 }
 
-public struct FunNavTitleTextAttributesItem {
+public struct NavTitleTextAttributesItem {
     let color: UIColor?
     let font: UIFont?
     init(color: UIColor? = nil, font: UIFont? = nil) {

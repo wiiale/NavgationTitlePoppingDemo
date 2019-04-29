@@ -6,7 +6,7 @@
 
 import UIKit
 
-class FunNavigationViewController: UINavigationController {
+class NavigationViewController: UINavigationController {
 
     private var topViewControllerNavBarTitleAttributes: [NSAttributedString.Key: AnyObject]? {
         return (topViewController as? NavBarTitleChangeable)?.preferredTextAttributes
