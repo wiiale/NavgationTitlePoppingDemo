@@ -10,7 +10,7 @@ extension UINavigationController {
     
     public func setNavgationBarTitleTextAttributes(color: UIColor?, font: UIFont?) {
         
-        var textAttributes: [NSAttributedStringKey: AnyObject] = [:]
+        var textAttributes: [NSAttributedString.Key: AnyObject] = [:]
         
         if let c = color {
             textAttributes[.foregroundColor] = c
