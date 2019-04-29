@@ -19,8 +19,16 @@ class SecondViewController: UIViewController {
         super.viewWillAppear(animated)
         
         navigationController?.setNavgationBarTitleTextAttributes(
-            color: .nav_black,
-            font:  .nav_small
+            color: .navBlack,
+            font:  .navSmall
         )
     }
+}
+
+private extension UIColor {
+    static let navBlack: UIColor = #colorLiteral(red: 0.2834439278, green: 0.2834514081, blue: 0.2834473848, alpha: 1)
+}
+
+private extension UIFont {
+    static let navSmall: UIFont = .systemFont(ofSize: 13, weight: .medium)
 }
