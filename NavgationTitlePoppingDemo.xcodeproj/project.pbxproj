@@ -52,12 +52,12 @@
 			name = Source;
 			sourceTree = "<group>";
 		};
-		2233740C2276FF5100B9427C /* Helper */ = {
+		2233740C2276FF5100B9427C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				22BEB5F520AD862900677946 /* UINavigationController+Title.swift */,
 			);
-			name = Helper;
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		2233740D2276FF6100B9427C /* ViewControllers */ = {
@@ -91,7 +91,7 @@
 				2236E9D020A6E9DC00139F44 /* AppDelegate.swift */,
 				2233740D2276FF6100B9427C /* ViewControllers */,
 				2233740B2276FF3E00B9427C /* Source */,
-				2233740C2276FF5100B9427C /* Helper */,
+				2233740C2276FF5100B9427C /* Extensions */,
 				2236E9D420A6E9DD00139F44 /* Main.storyboard */,
 				2236E9D720A6E9DE00139F44 /* Assets.xcassets */,
 				2236E9D920A6E9DE00139F44 /* LaunchScreen.storyboard */,
