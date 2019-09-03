@@ -11,8 +11,6 @@ class FirstViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .white
-        title = "First"
         navBarTitleColor = .navPurple
     }
 }

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9bc-4Q-8pE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9bc-4Q-8pE">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First View Controller-->
+        <!--First-->
         <scene sceneID="S2s-9n-YqA">
             <objects>
                 <viewController id="JAi-gp-zew" customClass="FirstViewController" customModule="NavgationTitlePoppingDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJv-3p-NBP">
-                                <rect key="frame" x="169.5" y="153" width="35" height="30"/>
+                                <rect key="frame" x="170" y="153" width="35" height="30"/>
                                 <state key="normal" title="Push"/>
                                 <connections>
                                     <segue destination="aAd-2e-yBs" kind="show" id="rIk-UP-T10"/>
@@ -34,13 +33,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="RqN-UV-96J"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Njv-Vx-6Fx"/>
+                    <navigationItem key="navigationItem" title="First" id="Njv-Vx-6Fx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cX2-lc-wL5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="319" y="83"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Second-->
         <scene sceneID="u3J-iN-V4t">
             <objects>
                 <viewController id="aAd-2e-yBs" customClass="SecondViewController" customModule="NavgationTitlePoppingDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -50,6 +49,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="gVp-GT-RrC"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Second" id="q4G-ED-79o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Iv-3C-Wre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
