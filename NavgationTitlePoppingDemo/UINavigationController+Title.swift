@@ -6,10 +6,10 @@
 
 import UIKit
 
-extension UINavigationController {
+public extension UINavigationController {
     
-    public func setNavgationBarTitleTextAttributes(color: UIColor?, font: UIFont?) {
-        
+    func setNavgationBarTitleTextAttributes(color: UIColor?, font: UIFont?) {
+
         var textAttributes: [NSAttributedString.Key: AnyObject] = [:]
         
         if let c = color {

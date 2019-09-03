@@ -60,7 +60,7 @@
 			children = (
 				2236E9D020A6E9DC00139F44 /* AppDelegate.swift */,
 				22734BEA227701E700028890 /* ViewControllers */,
-				22734BEB227701F400028890 /* Helper */,
+				22734BEB227701F400028890 /* Extensions */,
 				2236E9D420A6E9DD00139F44 /* Main.storyboard */,
 				2236E9D720A6E9DE00139F44 /* Assets.xcassets */,
 				2236E9D920A6E9DE00139F44 /* LaunchScreen.storyboard */,
@@ -78,12 +78,12 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		22734BEB227701F400028890 /* Helper */ = {
+		22734BEB227701F400028890 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				22BEB5F520AD862900677946 /* UINavigationController+Title.swift */,
 			);
-			name = Helper;
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,7 +305,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NavgationTitlePoppingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -313,6 +315,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fun.NavgationTitlePoppingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -322,7 +325,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NavgationTitlePoppingDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -330,6 +335,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = fun.NavgationTitlePoppingDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
