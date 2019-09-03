@@ -7,12 +7,15 @@
 import UIKit
 
 public protocol NavBarTitleChangeable: class {
+    
     var preferredTextAttributes: [NSAttributedString.Key: AnyObject] { get }
+    
+    func getNavgationBarTitleTextAttributes(with item: FunNavTitleTextAttributesItem) -> [NSAttributedString.Key: AnyObject]
 }
 
 extension NavBarTitleChangeable {
     
-    public func getNavgationBarTitleTextAttributes(with item: FunNavTitleTextAttributesItem) -> [NSAttributedString.Key: AnyObject] {
+    func getNavgationBarTitleTextAttributes(with item: FunNavTitleTextAttributesItem) -> [NSAttributedString.Key: AnyObject] {
         
         var textAttributes: [NSAttributedString.Key: AnyObject] = [:]
         
